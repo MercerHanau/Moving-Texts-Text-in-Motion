@@ -4,8 +4,15 @@ Steady work at Fouts, 40 hours 8 hours/5 days a week from June 6 - July 15
 
 Week 1 Introductory reading, review of Literature, Begin planning video installation project.
 read Lupton books, pp 243-327 in SoftWare takes Command, Organize Lab and Studio, get started with GitHub.
-Mercer: Look at others' Processing files on GH (search for Processing code for tips on how to attach media)
-upload a Exp in Illeg Processing file to GitHub (with fonts and images?)
+  Mercer: Look at others' Processing files on GH (search for Processing code for tips on how to attach media)
+upload an Exp in Illeg Processing file to GitHub (with fonts and images?)
+
+HW for next week: Figure out timing (seconds, etc) vs. framerate for saving frames. Also modulo (remainders).
+  Issue: Quicktime playback is same speed if 1 frame for every frame...
+  Want to be able to slow down how long we see words
+  What if we want something happening faster in the BG as well?
+Read Software Takes Command (section; look at PDF)... Take notes for discussion (and maybe for class readings)
+
 
 Week 2 Begin programming and / or online training in Adobe After Effects
 

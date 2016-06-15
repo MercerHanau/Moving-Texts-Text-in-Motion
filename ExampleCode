@@ -1,18 +1,18 @@
 Draw bouncing character in cityscape JPEG:
 https://github.com/zweisteine/MyProcessing
 Yes, one can upload images
-
+-----
 Shiffman's example code for Processing, organized by chapter
 https://github.com/shiffman/LearningProcessing
-
+-----
 Something with a cat video (from the collection above in LearningProcessing)
 https://github.com/shiffman/LearningProcessing/tree/master/chp16_video/example_16_05_MovieScrub
 Videos sometimes can't play online if the file is too big. Must download
-
+-----
 Someone followed "The Nature of Code" by Daniel Shiffman to learn to code.
 https://github.com/hiddenenigma/365Processing
 Interesting to browse through, but not good documentation for what is where and many unfamilliar libraries.
-
+-----
 THIS!! TIMING w/o frameRate
 *** Code showing use of millis(), frameCount, keyPressed interactivity, modulo, booleans... ***
 https://amnonp5.wordpress.com/2012/01/28/25-life-saving-tips-for-processing/
@@ -57,3 +57,34 @@ void draw() {
 void keyPressed() {
   timer = millis();
 }
+
+-----
+Another example of timing events using frameCount.
+http://cmuems.com/2014c/timed-events/  (Also a generally cool site with programming projects... worth poking around in it.)
+"The Modulo operator % calculates the remainder of a division so it can be used to repeat event every -multiples of x-"
+
+void setup()
+{
+size(300, 300);
+frameRate(60);
+}
+ 
+void draw()
+{
+if(frameCount%60 == 0)  // Changes every second since 60 fps
+  {
+  background(random(255), 255, 255);
+  }
+ 
+println(frameRate);
+}
+
+-----
+As long as the frameRate is constant, it seems like frameCount is easier than trying to use millis().
+See https://forum.processing.org/one/topic/how-to-perform-an-action-every-x-seconds-time-delays.html:
+ "The unfortunate thing about millis() is that it's not as strict as frameCount (1, 2, 3 etc.) so modulo won't 
+  work accurately with millis(). Therefore you have to construct the code so that it does get picked up. 
+  A good solution is to use a timer variable and check if >= (equal or more) time has passed..."  
+Sounds more complex than necessary.
+
+Q: Reset for looping? How do we avoid hardcoding? Match with a timer that CAN be reset when it starts over?

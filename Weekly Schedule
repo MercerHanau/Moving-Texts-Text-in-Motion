@@ -40,8 +40,33 @@ Week 5. Commence Video and possibly sound editing.
   Put pause (etc.) on midi, not keyPressed
 
 Week 6. Begin work on installation.
+  Met with Albert Schuller in the gallery with the program projected.
+  Albert quickly coded a dyslexic add-on
+  Talked about performance ideas (silhouettes)
 
-Week 7. Finish installation and document it. Review. Write Report.
+Week 7. (Finish installation and document it. Review. Write Report.)
+  Switched from centered text to movable on X and Y
+  Grayscale for text and background
+  Text alpha introduced
+  Made midi connect tutorial (Etch A Sketch)
+  Video and text mashup
+  2 texts side-by-side version (cut-up)
+  Mercer talked to another student about performance in Latin-American theater
+  Midi diagram
+  Finalize/uncomment version
+  Midi-fied rainbow drip program
+  Met with Shane Ward
+  Justin presented prototype to Digital Humanities group
+
+ Still to do!
+   Red toggle?
+   Fade is still lurchy at low speeds
+   Make fade/BG independent of drawing text
+   Toggle between dyslexic and non-dyslexic
+   Array of texts
+   Midi-fy "Shower Door" and get rid of gaps
+   Further explorre glitch text book project
+   Social component of how to use this as an "instrument"
 
 After the Summer project Justin Lincoln will submit the project to various venues. An update will
 be sent to the committee that Fall, though there may be extensive turn around time as
